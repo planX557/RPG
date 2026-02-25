@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad9e2f9fbb4e3942aed93827c6d3a8c, type: 3}
+  m_Name: Skill data - Catch this
+  m_EditorClassIdentifier: 
+  displayName: Catch this
+  description: 'Throw your sword to damage enemies. Sword will apply status effects.
+    You can have only one sword at a time. '
+  Icon: {fileID: 1604439832, guid: 0cd82a8a5ab3e8744820923caf80a75b, type: 3}
+  cost: 1
+  unlockedByDefault: 0
+  skillType: 3
+  upgradeData:
+    upgradeType: 11
+    coolDown: 4
+    damageScaleData:
+      physical: 1
+      elemental: 1
+      chillDuration: 3
+      chillSlowMultiplier: 0.2
+      burnDuration: 3
+      burnDamageScale: 1
+      shockDuration: 3
+      shockDamageScale: 1
+      shockCharge: 0.4

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e85860145ae01f44adf1e7adda6c676, type: 3}
+  m_Name: Line - Merchant Bob_1
+  m_EditorClassIdentifier: 
+  DialogueGroupName: Merchant Bob
+  speaker: {fileID: 11400000, guid: 256f31eac24b8a44c959cc945a4769a8, type: 2}
+  textLine:
+  - "Welcome! Potions, weapons, charms\u2014all here. Your gold keeps you alive."
+  - This elven blade cuts through shadows. Expensive, but worth it.
+  - Crystal Cave gem? 800 gold. It's cracked, but I'll take the risk.
+  - "Stock up for the night. Bring back curiosities\u2014I pay well. Stay safe."
+  actionLine: 
+  actionType: 5
+  choiceLines:
+  - {fileID: 11400000, guid: c4d3d8fedc75cae4d8d814b58f900d1b, type: 2}
+  - {fileID: 11400000, guid: 655bbe07f2d03d442905149aa8c7bda0, type: 2}
+  - {fileID: 11400000, guid: 691b17f78b56ec7408304c3018386461, type: 2}

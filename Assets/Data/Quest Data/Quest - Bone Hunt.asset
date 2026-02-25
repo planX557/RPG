@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75d14b64ceca1241a5b32d266c947d4, type: 3}
+  m_Name: Quest - Bone Hunt
+  m_EditorClassIdentifier: 
+  questSaveId: bb71fcc924ce838408c9bad141dd11ca
+  questName: Bone Hunt
+  description: xxxx
+  questGoal: '- Elimate skeletons:'
+  questTargetId: enemy_skeleton
+  requiredAmount: 2
+  rewardType: 0
+  rewardItems:
+  - itemData: {fileID: 11400000, guid: 171e09cba4789af49a78f22d43dfca1f, type: 2}
+    stackSize: 1
+    itemEffect: {fileID: 0}
+  - itemData: {fileID: 11400000, guid: 49b1ab9da127a984f99c3a735433e08e, type: 2}
+    stackSize: 2
+    itemEffect: {fileID: 0}
+  - itemData: {fileID: 11400000, guid: 5499a9ff7012c384a85557258634d084, type: 2}
+    stackSize: 1
+    itemEffect: {fileID: 0}

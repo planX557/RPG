@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad9e2f9fbb4e3942aed93827c6d3a8c, type: 3}
+  m_Name: Skill data - Quick Thinking
+  m_EditorClassIdentifier: 
+  displayName: Quick Thinking
+  description: The healing wisp reduces cooldowns of your other skills by 1 second.
+  Icon: {fileID: -197496858, guid: 0cd82a8a5ab3e8744820923caf80a75b, type: 3}
+  cost: 3
+  unlockedByDefault: 0
+  skillType: 1
+  upgradeData:
+    upgradeType: 21
+    coolDown: 0
+    damageScaleData:
+      physical: 1
+      elemental: 1
+      chillDuration: 3
+      chillSlowMultiplier: 0.2
+      burnDuration: 3
+      burnDamageScale: 1
+      shockDuration: 3
+      shockDamageScale: 1
+      shockCharge: 0.4
